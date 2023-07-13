@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+:root{
+    --pink: #FF5D8F;
+    --babypink: #FADDE1;
+
+    --h1-fontsize: 75px;
+    --h2-fontsize: 50px;
+    --h3-fontsize: 25px;
+}
+body{
+    font-family: 'Aladin';
+    background-color: var(--babypink);
+}
+h1{
+    color: var(--pink);
+    font-size: var(--h1-fontsize);
+}
+h2 {
+    color: var(--pink);
+    font-size: var(--h2-fontsize);
+}
+h3{
+    color: var(--pink);
+    font-size: var(--);
+}
+*{
+    border: 1px solid red;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 250px;
+    padding-right: 80px;
+    padding-left: 80px;
+
+    position: sticky;
+    top:0;
+    background-color: var(--pink);
+}
+li{
+    list-style: none;
+
+}
+a{
+    font-size:var(--h3-fontsize);
+    color:var(--babypink);
+    text-decoration: none;
+}
+.contact-me-btn{
+
+    display: flex;
+    height: 20px;
+    flex-direction: column;
+    color:var(--pink);
+    background-color:var(--babypink);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+#home {
+    display: flex;
+}
+
+#home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home div h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0px 80px;
+}
+
+#hobbies h1 {
+    text-align: center;
+}
+
+#hobbies-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+#hobbies-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#hobbies-1 h2 {
+    text-align: center;
+}
+
+#my-main-sport h1{
+    text-align: center;
+}
+
+#main-sport-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+#main-sport-1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#main-sport-1 h3{
+    text-align: center;
+}
+#contact-me h1{
+    text-align: center;
+}
+#education h1{
+    text-align: center;
+}
