@@ -125,3 +125,33 @@ main {
 #education h1{
     text-align: center;
 }
+
+#education div {
+    display: flex;
+}
+#education h2{
+    margin: 0px 40px;
+}
+#contact-me-section div{
+     display:flex;
+}
+#contact-me div{
+    text-align: center;
+}
+#everything{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+}
+#all-of-it {
+    gap: 24px;
+}
+#name-one{
+    display: flex;
+    align-items: center;
+}
