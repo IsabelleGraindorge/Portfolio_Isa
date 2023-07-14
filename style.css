@@ -23,9 +23,7 @@ h3{
     color: var(--pink);
     font-size: var(--);
 }
-*{
-    border: 1px solid red;
-}
+
 ul{
     display: flex;
     justify-content: center;
